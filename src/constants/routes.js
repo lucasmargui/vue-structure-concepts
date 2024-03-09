@@ -1,21 +1,23 @@
 // src/constants/routes.js
 
-import Argumentos from '../views/ArgumentosView.vue';
-import Componentes from '../views/ComponentesView.vue';
-import Diretivas from '../views/DiretivasView.vue';
-import Emit from '../views/EmitView.vue';
-import Eventos from '../views/EventosView.vue';
-import HierarquiaComponentes from '../views/HierarquiaComponentesView.vue';
-import InputDatabinding from '../views/InputDatabindingView.vue';
-import LifecycleHooks from '../views/LifecycleHooksView.vue';
-import ListRendering from '../views/ListRenderingView.vue';
-import Metodos from '../views/MetodosView.vue';
-import MultiplosEventos from '../views/MultiplosEventosView.vue';
-import Props from '../views/PropsView.vue';
-import ReutilizacaoComponentes from '../views/ReutilizacaoComponentesView.vue';
-import ScopedStyles from '../views/ScopedStylesView.vue';
 
-export default [ 
+import Argumentos from '../views/argumentos/ArgumentosView.vue';
+import Componentes from '../views/componentes/ComponentesView.vue';
+import Diretivas from '../views/diretivas/DiretivasView.vue';
+import Emit from '../views/emit/EmitView.vue';
+import Eventos from '../views/eventos/EventosView.vue';
+import HierarquiaComponentes from '../views/hierarquia_componentes/HierarquiaComponentesView.vue';
+import InputDatabinding from '../views/input_databinding/InputDataBindingView.vue';
+import LifecycleHooks from '../views/lifecycle_hooks/LifecycleHooksView.vue';
+import ListRendering from '../views/list_rendering/ListRenderingView.vue';
+import Metodos from '../views/metodos/MetodosView.vue';
+import MultiplosEventos from '../views/multiplos_eventos/MultiplosEventosView.vue';
+import Props from '../views/props/PropsView.vue';
+import ReutilizacaoComponentes from '../views/reutilizacao_componentes/ReutilizacaoComponentesView.vue';
+import ScopedStyles from '../views/scoped_styles/ScopedStylesView.vue';
+
+
+const routes = [ 
   { path: '/argumentos', component: Argumentos },
   { path: '/componentes', component: Componentes },
   { path: '/diretivas', component: Diretivas },
@@ -31,3 +33,5 @@ export default [
   { path: '/reutilizacao_componentes', component: ReutilizacaoComponentes },
   { path: '/scoped_styles', component: ScopedStyles },
 ];
+
+export default routes

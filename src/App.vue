@@ -1,9 +1,11 @@
 <template>
   <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <div class="container">
+      <!-- Iterar sobre a lista de rotas e criar um router-link para cada uma -->
+      <CustomRouterLink v-for="route in routes" :route="route" />
+    </div>
   </nav>
-  <router-view/>
+  <router-view />
 </template>
 
 <style>
@@ -15,16 +17,34 @@
   color: #2c3e50;
 }
 
-nav {
-  padding: 30px;
+
+
+.container {
+  display: flex; /* Ativar o flexbox */
+  justify-content: center; /* Centralizar horizontalmente */
+  align-items: center; /* Centralizar verticalmente */
+  height: 100px;
+  border: 2px solid #333; /* Borda para visualização */
 }
 
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
 
-nav a.router-link-exact-active {
-  color: #42b983;
-}
+
 </style>
+
+<script>
+// Importe as rotas diretamente do arquivo de rotas
+import routes from "@/constants/routes.js";
+import CustomRouterLink from "@/components/CustomRouterLink.vue";
+
+export default {
+  data() {
+    return {
+      routes: routes,
+    };
+  },
+  components: {
+    CustomRouterLink,
+  },
+};
+</script>
+
