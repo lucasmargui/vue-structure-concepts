@@ -11,7 +11,6 @@ import InputDatabinding from '../views/input_databinding/InputDataBindingView.vu
 import LifecycleHooks from '../views/lifecycle_hooks/LifecycleHooksView.vue';
 import ListRendering from '../views/list_rendering/ListRenderingView.vue';
 import Metodos from '../views/metodos/MetodosView.vue';
-import MultiplosEventos from '../views/multiplos_eventos/MultiplosEventosView.vue';
 import Props from '../views/props/PropsView.vue';
 import ReutilizacaoComponentes from '../views/reutilizacao_componentes/ReutilizacaoComponentesView.vue';
 import ScopedStyles from '../views/scoped_styles/ScopedStylesView.vue';
@@ -28,7 +27,6 @@ const routes = [
   { path: '/lifecycle_hooks', component: LifecycleHooks },
   { path: '/list_rendering', component: ListRendering },
   { path: '/metodos', component: Metodos },
-  { path: '/multiplos_eventos', component: MultiplosEventos },
   { path: '/props', component: Props },
   { path: '/reutilizacao_componentes', component: ReutilizacaoComponentes },
   { path: '/scoped_styles', component: ScopedStyles },
