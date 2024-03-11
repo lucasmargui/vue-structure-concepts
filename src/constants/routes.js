@@ -13,7 +13,6 @@ import ListRendering from '../views/list_rendering/ListRenderingView.vue';
 import Metodos from '../views/metodos/MetodosView.vue';
 import Props from '../views/props/PropsView.vue';
 import ReutilizacaoComponentes from '../views/reutilizacao_componentes/ReutilizacaoComponentesView.vue';
-import ScopedStyles from '../views/scoped_styles/ScopedStylesView.vue';
 
 
 const routes = [ 
@@ -29,7 +28,6 @@ const routes = [
   { path: '/metodos', component: Metodos },
   { path: '/props', component: Props },
   { path: '/reutilizacao_componentes', component: ReutilizacaoComponentes },
-  { path: '/scoped_styles', component: ScopedStyles },
 ];
 
 export default routes
