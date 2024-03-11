@@ -1,0 +1,35 @@
+[33mcommit 97f8292b14ed882bb37ab15d6e53f1ce370defc8[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: Lucas Martins Guimarães <lucasmargui@outlook.com>
+Date:   Mon Mar 11 01:54:11 2024 -0300
+
+    update:diretivas, hierarquia, emit
+
+[33mcommit a1f7b4ae5b74842d549c9974c2d6e37631009ed8[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: Lucas Martins Guimarães <lucasmargui@outlook.com>
+Date:   Sun Mar 10 02:14:11 2024 -0300
+
+    update: add componentes
+
+[33mcommit ba9628af5fac8525d891332e2730d89569004aca[m
+Author: Lucas Martins Guimarães <lucasmargui@outlook.com>
+Date:   Sat Mar 9 16:54:52 2024 -0300
+
+    update: databinding exemplo
+
+[33mcommit 1181235aedc506ed80fb3df9ddb46fd41e5e65a7[m
+Author: Lucas Martins Guimarães <lucasmargui@outlook.com>
+Date:   Sat Mar 9 16:34:10 2024 -0300
+
+    update: add router links
+
+[33mcommit 643dcb7fa4ccb514d8d919bb525c57816439ab03[m
+Author: Lucas Martins Guimarães <lucasmargui@outlook.com>
+Date:   Fri Mar 8 19:06:29 2024 -0300
+
+    update: Criação dos fundamentos Essenciais Vue
+
+[33mcommit a6794134b3e72d4a6a0dde0e536c9bef4b71c154[m
+Author: Lucas Martins Guimarães <lucasmargui@outlook.com>
+Date:   Fri Mar 8 13:44:09 2024 -0300
+
+    init
